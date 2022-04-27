@@ -5,5 +5,6 @@ function copiar(elemento){
     })
         .catch(err => {
         console.log('Something went wrong', err);
-    })
+    });
+
 };

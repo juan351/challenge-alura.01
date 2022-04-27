@@ -119,3 +119,7 @@ footer {
     text-align: center;
     padding: 2em;
 }
+
+.oculto{
+    display: none;
+}

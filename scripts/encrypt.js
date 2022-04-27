@@ -26,6 +26,8 @@ function encriptar(){
         nuevoTexto += textoIngresado[i];
 
     }
+
+    document.getElementById("copiar-texto").classList.remove("oculto");
         
     return nuevoTexto;
 };
@@ -36,6 +38,6 @@ function desencriptar(){
     for (let i=0; i < textoIngresado.length; i++){
         nuevoTexto += textoIngresado[i].replaceAll('ai', 'a').replaceAll('enter','e').replaceAll('imes','i').replaceAll('ober', 'o').replaceAll('ufat', 'u') + ' ';
     }
-    
+    document.getElementById("copiar-texto").classList.remove("oculto");
     return nuevoTexto;
 };
