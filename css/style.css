@@ -71,8 +71,6 @@ textarea{
 
 #texto-devuelto p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    padding: 15%;
 }
 
 button {
@@ -83,7 +81,21 @@ button {
     padding: 1%;
 }
 
+#copiar-texto{
+    border-radius: 10px;
+    background-color: #002070;
+    color: white;
+    padding: 5% 10%;
+}
 
+#confirmacion{
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 5% 20%;
+    margin-top: 10%;
+}
 
 #inferior{
     margin-top: 5%;
