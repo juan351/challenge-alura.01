@@ -1,0 +1,121 @@
+html, body {  
+    margin:0px;  
+    height:100%;  
+}  
+
+body {
+    background: #e5e5e5;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color:darkblue;
+}
+
+nav {
+    width: 100%;
+    padding: 20px;
+}
+
+#contenedor-transcripciones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+textarea{
+    width: 30%;
+    font-size: 1.5em;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+    border-radius: 15px;
+    background-color: rgb(229,229,299,0.1);
+    padding: 5%;
+    color: darkblue;
+}
+
+#texto-devuelto{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 500px;
+    max-width: 450px;
+    padding: 5%;
+}
+
+#munieco{
+    display:flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+#munieco img {
+    width: 50%;
+}
+
+#transcripcionArea {
+    min-height: 500px;
+    width: 100%;
+}
+
+#texto-devuelto p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 15%;
+}
+
+button {
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: #D8DFE8;
+    padding: 1%;
+}
+
+
+
+#inferior{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+#botones{
+    display: flex;
+    justify-content: flex-start; 
+    
+}
+
+#encriptar{
+    width: min-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0.5%;
+    background-color: #0A3871;
+    color: white;
+}
+
+#desencriptar{
+    width: min-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0.5%;
+}
+
+footer {
+    color: white;
+    background-color: #0A3871;
+    text-align: center;
+    padding: 2em;
+}

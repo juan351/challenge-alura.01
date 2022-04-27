@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <head>
+        <nav>
+            <div id="logo">
+                <a href="./index.html"><img src="./imagenes/Logo.svg"></a>
+            </div>            
+        </nav>
+    </head>
+    <main>
+        <section id="contenedor-transcripciones">
+            
+            <textarea id="texto-ingresado" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div id="texto-devuelto">
+                <div id="contenido-transcripto">
+                    <div id="munieco">
+                        <img src="./imagenes/Munieco.svg">
+                    </div>
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <button id="copiar-texto" class="oculto">Copiar texto</button>
+            </div> 
+        </section>
+        <section id="inferior">
+            <small>&#8859; Sólo letras minúsculas y sin acento</small>
+            <div id="botones">
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div> 
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Juan Montivero</p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/encrypt.js"></script>
+    <script src="./scripts/copiar.js"></script>
+</body>
+</html>
